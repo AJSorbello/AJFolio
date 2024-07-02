@@ -702,3 +702,19 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+.email-me-button {
+  display: inline-block;
+  background-color: #007bff; /* Bootstrap primary color for example */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email-me-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
