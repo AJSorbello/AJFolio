@@ -172,14 +172,14 @@ textarea {
 
 .text-primary {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-align: center;
   width: 100%;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .text-primary {
       font-size: 2rem; } }
-
+      
 .d-none {
   display: none; }
 
@@ -517,8 +517,8 @@ textarea {
     .header__logo-container:hover {
       color: #0062b9; }
   .header__logo-img-cont {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
@@ -659,18 +659,6 @@ textarea {
       .main-footer__lower {
         padding: 3.5rem 0; } }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap; }
-  .skills__skill {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
-    border-radius: 5px;
-    font-weight: 600;
-    color: #777; }
 
 .mouse {
   width: 25px;
@@ -717,4 +705,73 @@ textarea {
 
 .email-me-button:hover {
   background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+ gap: 20px; }
+  .skills__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777; }
+
+
+.skills__category {
+    flex: 1 1 200px; /* Grow to fit the container but don't go below 200px */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills__skill {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.skills-container {
+  width: 500px; /* Adjust based on the layout */
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px; /* Adjust font size to fit */
+  word-wrap: break-word;
+  display: flex; /* Flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: space-around; /* Distribute space around items */
+}
+
+.skill-item {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc; /* Example styling */
+  box-sizing: border-box;
+}
+.skills-container {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional: Add border for visual clarity */
+  padding: 10px; /* Optional: Add padding for spacing */
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__category {
+  flex: 1 1 300px; /* Adjust width of categories as needed */
+  margin-right: 20px; /* Optional: Add margin between categories */
+}
+
+.skills__category h2 {
+  margin-bottom: 5px; /* Optional: Add margin under category titles */
+}
+
+.skills__skill {
+  margin-bottom: 5px; /* Optional: Add margin between skills */
 }
