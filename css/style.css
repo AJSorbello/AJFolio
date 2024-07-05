@@ -753,7 +753,7 @@ textarea {
     border-radius: 5px;
 }
 .skills-container {
-  width: 500px; /* Adjust based on the layout */
+  max-width: 500px; /* Adjust based on the layout */
   padding: 10px;
   box-sizing: border-box;
   font-size: 14px; /* Adjust font size to fit */
@@ -770,7 +770,7 @@ textarea {
   box-sizing: border-box;
 }
 .skills-container {
-  max-height: 300px; /* Adjust the height as needed */
+  max-height: 318px; /* Adjust the height as needed */
   overflow-y: auto; /* Enable vertical scrolling */
   border: 1px solid #ccc; /* Optional: Add border for visual clarity */
   padding: 10px; /* Optional: Add padding for spacing */
