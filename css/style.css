@@ -390,7 +390,9 @@ textarea {
 .centered-title {
   text-align: center;
 }
-
+.home-hero__cta .btn:first-child {
+  margin-right: 20px; /* Adjust the value as needed */
+}
 .about__content-details-list {
   list-style-type: disc;
   margin-left: 20px;
