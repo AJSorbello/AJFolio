@@ -199,6 +199,12 @@ textarea {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
+}
+  @media (max-width: 768px) { /* Adjust the max-width as needed */
+  .home-hero__cta .btn--bg + .btn--bg {
+    margin-inline: 10px; /* Adjust the value as needed */
+  }
 }
 
 .btn--med {
