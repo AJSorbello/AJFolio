@@ -192,8 +192,13 @@ textarea {
 }
 
 .btn--bg {
-  padding: 1.5rem 8rem;
+  padding: 1.5rem; /* Adjusted to ensure text is centered */
+  width: 200px; /* Example width, adjust as needed */
+  height: 60px; /* Example height, adjust as needed */
   font-size: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn--med {
@@ -1025,7 +1030,7 @@ textarea {
 
 .email-me-button {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #000000;
   color: white;
   padding: 10px 20px;
   text-align: center;
