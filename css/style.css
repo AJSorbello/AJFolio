@@ -285,7 +285,7 @@ textarea {
 }
 
 .home-hero__mouse-scroll-cont {
-  position: absolute;
+   position: absolute;
   bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
@@ -434,6 +434,8 @@ textarea {
   max-width: 500px;
   padding: 10px;
   box-sizing: border-box;
+  padding-left: 15px;
+  padding-top: 15px;
   font-size: 14px;
   word-wrap: break-word;
   display: flex;
@@ -1000,7 +1002,7 @@ textarea {
 .mouse {
   width: 25px;
   height: 40px;
-  border: 2px solid #eee;
+  border: 2px solid #4e4e4e;
   border-radius: 60px;
   position: relative;
   overflow: hidden;
@@ -1014,7 +1016,7 @@ textarea {
   top: 7px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #eee;
+  background-color: #575757;
   border-radius: 50%;
   opacity: 1;
   animation: wheel 1.3s infinite;
