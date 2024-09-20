@@ -285,10 +285,13 @@ textarea {
 }
 
 .home-hero__mouse-scroll-cont {
-   position: absolute;
-  bottom: 3%;
+  position: absolute;
+  bottom: 10px; /* Adjust based on your design */
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -444,6 +447,7 @@ textarea {
   max-height: 318px;
   overflow-y: auto;
   border: 1px solid #ccc;
+  position: relative;
 }
 
 .skills {
