@@ -74,7 +74,7 @@ AJfolio/
 │   ├── svg/
 │   │   ├── ham-menu.svg
 │   │   ├── ham-menu-close.svg
-│   │   ├── medium.svg
+│   │   ├── medium.png
 ├── css/
 │   ├── style.css
 ├── index.html
