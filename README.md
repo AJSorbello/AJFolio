@@ -63,7 +63,7 @@ AJfolio/
 │   │   ├── Bello_Photo.png
 │   │   ├── linkedin-ico.png
 │   │   ├── github-ico.png
-│   │   ├── twitter-ico.png
+│   │   ├── twitter-icon.png
 │   │   ├── yt-ico.png
 │   │   ├── insta-ico.png
 │   │   ├── BelloFlix_Laptop.png
