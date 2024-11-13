@@ -85,9 +85,7 @@ For inquiries or further information, you can contact AJ Sorbello via email or t
 Email: ajsorbello@gmail.com
 LinkedIn: linkedin.com/in/ajsorbello
 GitHub: github.com/AJSorbello
-Twitter: x.com/Bello_Music_
+Twitter: x.com/AJSorbello
 Medium: medium.com/@ajsorbello
 YouTube: youtube.com/channel/UCQmBAU6MYEQKtVgTEXe_MPw
 Instagram: instagram.com/iambellomusic/
-sql
-Copy code
